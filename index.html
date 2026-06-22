@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Movimiento Real (Jorge Darek)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2C2C2C;
+            background-color: #FAF6F0;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #FAF6F0;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 2px 15px rgba(139, 111, 71, 0.1);
+        }
+
+        h1 {
+            color: #D4A76A;
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-align: center;
+            border-bottom: 3px solid #4A5D3A;
+            padding-bottom: 20px;
+            letter-spacing: -0.5px;
+        }
+
+        h2 {
+            color: #4A5D3A;
+            font-size: 1.8em;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(212, 167, 106, 0.3);
+            position: relative;
+            padding-left: 15px;
+        }
+
+        h2:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 5px;
+            height: 25px;
+            background-color: #D4A76A;
+            border-radius: 2px;
+        }
+
+        h3 {
+            color: #8B6F47;
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        .company-header {
+            text-align: center;
+            color: #D4A76A;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 30px;
+            animation: pulse 3s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.8; }
+            100% { opacity: 1; }
+        }
+
+        .intro {
+            background: linear-gradient(135deg, rgba(212, 167, 106, 0.1) 0%, rgba(74, 93, 58, 0.05) 100%);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 4px solid #D4A76A;
+            border: 2px solid rgba(212, 167, 106, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .intro:before {
+            content: "🏋️";
+            position: absolute;
+            top: -10px;
+            right: 20px;
+            font-size: 60px;
+            opacity: 0.1;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+
+        ul li {
+            padding: 10px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #2C2C2C;
+        }
+
+        ul li:before {
+            content: "→";
+            color: #D4A76A;
+            font-weight: bold;
+            font-size: 1em;
+            position: absolute;
+            left: 0;
+        }
+
+        .important-note {
+            background: linear-gradient(135deg, rgba(212, 167, 106, 0.15) 0%, rgba(139, 111, 71, 0.1) 100%);
+            border: 2px solid #8B6F47;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 25px 0;
+            color: #2C2C2C;
+            position: relative;
+        }
+
+        .important-note:before {
+            content: "⚠️";
+            position: absolute;
+            top: -12px;
+            left: 20px;
+            background-color: #FAF6F0;
+            padding: 0 10px;
+            font-size: 20px;
+        }
+
+        .important-note strong {
+            color: #8B6F47;
+            font-weight: 700;
+        }
+
+        .contact-info {
+            background-color: rgba(74, 93, 58, 0.08);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 5px solid #4A5D3A;
+        }
+
+        .contact-info strong {
+            color: #4A5D3A;
+            font-weight: 600;
+        }
+
+        strong {
+            color: #4A5D3A;
+            font-weight: 600;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .footer-date {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 3px solid #8B6F47;
+            color: #4A5D3A;
+            background: linear-gradient(180deg, transparent 0%, rgba(139, 111, 71, 0.05) 100%);
+            padding: 30px 20px 20px 20px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .footer-date strong {
+            color: #8B6F47;
+            font-size: 1.1em;
+        }
+
+        .footer-date a {
+            color: #4A5D3A;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-date a:hover {
+            color: #D4A76A;
+        }
+
+        .consent-box {
+            background: linear-gradient(135deg, rgba(74, 93, 58, 0.1) 0%, rgba(212, 167, 106, 0.08) 100%);
+            border: 2px solid #4A5D3A;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 25px 0;
+            position: relative;
+        }
+
+        .consent-box:before {
+            content: "✓";
+            position: absolute;
+            top: -15px;
+            left: 25px;
+            background-color: #FAF6F0;
+            color: #4A5D3A;
+            padding: 0 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .consent-box h3 {
+            color: #4A5D3A;
+            margin-top: 0;
+        }
+
+        .rights-list {
+            background-color: rgba(212, 167, 106, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .rights-list li strong {
+            color: #8B6F47;
+            text-transform: uppercase;
+            font-size: 0.95em;
+        }
+
+        h2:hover:before {
+            background-color: #8B6F47;
+            transition: background-color 0.3s ease;
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            .container { padding: 20px; }
+            h1 { font-size: 2em; }
+            h2 { font-size: 1.5em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidad</h1>
+        <p class="company-header">MOVIMIENTO REAL · JORGE DAREK</p>
+
+        <div class="intro">
+            <p>En <strong>Movimiento Real</strong> tratamos tus datos personales con respeto, responsabilidad y transparencia, cumpliendo con las normativas aplicables de protección de datos, incluido el Reglamento General de Protección de Datos (RGPD) de la Unión Europea y las normativas internacionales aplicables.</p>
+            <p>Esta Política de Privacidad regula la forma en que recopilamos, usamos y protegemos los datos personales a través de la aplicación móvil <strong>Movimiento Real</strong> (la "App"), disponible en App Store y Google Play.</p>
+        </div>
+
+        <div class="section">
+            <h2>1. Datos del Responsable del Tratamiento</h2>
+            <div class="contact-info">
+                <ul>
+                    <li><strong>Marca:</strong> Jorge Darek</li>
+                    <li><strong>Entidad:</strong> Real Group LLC</li>
+                    <li><strong>Domicilio:</strong> 411 Hollowtrail DR. Tampa, Florida (EE.UU.)</li>
+                    <li><strong>EIN:</strong> 32-0830812</li>
+                    <li><strong>Correo electrónico de contacto:</strong> real@jorgedarek.com</li>
+                    <li><strong>WhatsApp de soporte:</strong> +34 919 930 715</li>
+                    <li><strong>Publicación de la App en las tiendas:</strong> Departamento Disruptivo</li>
+                    <li><strong>Identificador de la App:</strong> com.departamentodisruptivo.jorgedarek</li>
+                    <li><strong>Actividad:</strong> Aplicación de entrenamiento, planes personalizados y coach con inteligencia artificial</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>2. Datos que Recopilamos y su Finalidad</h2>
+            <p>Los datos personales que tratamos a través de la App pueden incluir:</p>
+            <ul>
+                <li><strong>Datos de cuenta:</strong> nombre, correo electrónico y contraseña (cifrada), para crear y gestionar tu cuenta y autenticarte.</li>
+                <li><strong>Datos de entrenamiento y salud:</strong> objetivos, peso, medidas, rutinas, ejercicios realizados y progreso, para generar y mostrar tus planes personalizados y tu seguimiento.</li>
+                <li><strong>Ubicación:</strong> ubicación precisa (incluso en segundo plano) para registrar la ruta de tus entrenamientos al aire libre. Solo se utiliza si activas esta función.</li>
+                <li><strong>Cámara y fotos:</strong> imágenes que decides subir para tu foto de perfil o tu registro de progreso.</li>
+                <li><strong>Micrófono:</strong> audio cuando usas funciones que lo requieren.</li>
+                <li><strong>Mensajes al coach con IA:</strong> los mensajes que escribes en el chat, para generar respuestas personalizadas.</li>
+                <li><strong>Compras y suscripciones:</strong> estado de tu suscripción, gestionado por Apple App Store y Google Play. No accedemos a los datos de tu tarjeta.</li>
+                <li><strong>Datos técnicos:</strong> modelo de dispositivo, sistema operativo, identificadores y registros de error, para seguridad, soporte y mejora de la App.</li>
+            </ul>
+
+            <div class="consent-box">
+                <h3>Consentimiento</h3>
+                <p>Al registrarte y utilizar la App, consientes expresamente el tratamiento de tus datos personales conforme a esta Política de Privacidad. Los permisos del dispositivo (ubicación, cámara, micrófono, fotos) se solicitan por separado y puedes concederlos o revocarlos en cualquier momento desde los ajustes de tu teléfono.</p>
+            </div>
+
+            <div class="important-note">
+                <p><strong>Inteligencia Artificial:</strong> los mensajes que envías al coach se procesan mediante proveedores de modelos de IA para generar las respuestas. Te recomendamos no compartir información sensible que no sea necesaria para tu entrenamiento.</p>
+                <p><strong>Descargo médico:</strong> el contenido de entrenamiento y nutrición tiene fines informativos y no sustituye el consejo médico profesional. Consulta a un profesional antes de iniciar cualquier programa.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3. Base Legal para el Tratamiento</h2>
+            <ul>
+                <li>Consentimiento del titular (registro, permisos del dispositivo, chat con IA).</li>
+                <li>Ejecución de un contrato (suscripciones y funciones premium).</li>
+                <li>Interés legítimo del responsable (mejora y seguridad de la App).</li>
+                <li>Cumplimiento de obligaciones legales.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. Herramientas y Encargados del Tratamiento</h2>
+            <p>Compartimos datos únicamente con proveedores que nos ayudan a operar la App, bajo obligaciones de confidencialidad, incluyendo pero no limitados a:</p>
+            <ul>
+                <li><strong>Proveedores de infraestructura y almacenamiento</strong> (hosting de la API y almacenamiento de archivos e imágenes).</li>
+                <li><strong>Proveedores de inteligencia artificial</strong> (procesamiento del chat del coach).</li>
+                <li><strong>Apple App Store y Google Play</strong> (procesamiento de pagos y suscripciones).</li>
+                <li>Otros proveedores conforme a las necesidades del servicio.</li>
+            </ul>
+            <p>No vendemos tu información personal a terceros. Todos estos terceros garantizan un nivel adecuado de protección conforme al RGPD.</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Derechos del Usuario</h2>
+            <p>Como titular de datos, tienes derecho a:</p>
+            <div class="rights-list">
+                <ul>
+                    <li><strong>Acceder</strong> a tus datos personales</li>
+                    <li><strong>Rectificarlos</strong> si son inexactos</li>
+                    <li><strong>Solicitar su supresión</strong> cuando ya no sean necesarios</li>
+                    <li><strong>Limitar u oponerte</strong> al tratamiento</li>
+                    <li><strong>Solicitar la portabilidad</strong> de los datos</li>
+                    <li><strong>Retirar tu consentimiento</strong> en cualquier momento</li>
+                    <li><strong>Eliminar tu cuenta</strong> y los datos asociados</li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <p>Puedes ejercer tus derechos, incluida la <strong>eliminación de tu cuenta y tus datos</strong>, escribiendo a: <strong>real@jorgedarek.com</strong></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>6. Conservación de los Datos</h2>
+            <ul>
+                <li><strong>Datos de cuenta y entrenamiento:</strong> conservados mientras tu cuenta esté activa.</li>
+                <li><strong>Datos de suscripciones:</strong> conservados por el período exigido legalmente.</li>
+                <li><strong>Tras eliminar tu cuenta:</strong> borramos o anonimizamos tus datos personales, salvo los que debamos conservar por obligaciones legales.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. Destinatarios y Transferencias Internacionales</h2>
+            <p>Tus datos podrán ser tratados fuera del Espacio Económico Europeo cuando se utilicen servicios ubicados en EE.UU. u otros países. En todos los casos, se aplicarán garantías adecuadas de protección mediante cláusulas contractuales tipo o marcos de adecuación aprobados por la Comisión Europea.</p>
+        </div>
+
+        <div class="section">
+            <h2>8. Seguridad</h2>
+            <p>Aplicamos medidas técnicas y organizativas razonables (cifrado en tránsito, almacenamiento seguro de credenciales) para proteger tu información. No obstante, ningún sistema es 100% seguro.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Menores de Edad</h2>
+            <p>La App no está dirigida a menores de 13 años y no recopilamos conscientemente sus datos. Si detectamos que un menor ha proporcionado sus datos sin consentimiento de sus padres o tutores, procederemos a eliminarlos. Si tienes conocimiento de esta situación, escríbenos a <strong>real@jorgedarek.com</strong>.</p>
+        </div>
+
+        <div class="section">
+            <h2>10. Modificaciones</h2>
+            <p>Nos reservamos el derecho de modificar la presente Política de Privacidad en cualquier momento. Los cambios serán publicados en esta página con su fecha de actualización y, en caso de ser sustanciales, se notificará a los usuarios.</p>
+        </div>
+
+        <div class="footer-date">
+            <p><strong>Última actualización:</strong> Junio de 2026</p>
+            <p><strong>Contacto para temas de privacidad:</strong> real@jorgedarek.com</p>
+            <p><strong>Soporte por WhatsApp:</strong> <a href="https://wa.me/34919930715" target="_blank">+34 919 930 715</a></p>
+            <p style="margin-top: 20px; font-size: 0.9em; opacity: 0.8;"><strong>Real Group LLC</strong> | 411 Hollowtrail DR. Tampa, Florida | EIN: 32-0830812 | App publicada por Departamento Disruptivo</p>
+        </div>
+    </div>
+</body>
+</html>
