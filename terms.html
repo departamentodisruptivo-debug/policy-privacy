@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Términos y Condiciones de Uso - Movimiento Real (Jorge Darek)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2C2C2C;
+            background-color: #FAF6F0;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #FAF6F0;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 2px 15px rgba(139, 111, 71, 0.1);
+        }
+
+        h1 {
+            color: #D4A76A;
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-align: center;
+            border-bottom: 3px solid #4A5D3A;
+            padding-bottom: 20px;
+            letter-spacing: -0.5px;
+        }
+
+        h2 {
+            color: #4A5D3A;
+            font-size: 1.8em;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(212, 167, 106, 0.3);
+            position: relative;
+            padding-left: 15px;
+        }
+
+        h2:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 5px;
+            height: 25px;
+            background-color: #D4A76A;
+            border-radius: 2px;
+        }
+
+        h3 {
+            color: #8B6F47;
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        .company-header {
+            text-align: center;
+            color: #D4A76A;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 30px;
+            animation: pulse 3s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.8; }
+            100% { opacity: 1; }
+        }
+
+        .intro {
+            background: linear-gradient(135deg, rgba(212, 167, 106, 0.1) 0%, rgba(74, 93, 58, 0.05) 100%);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 4px solid #D4A76A;
+            border: 2px solid rgba(212, 167, 106, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .intro:before {
+            content: "🏋️";
+            position: absolute;
+            top: -10px;
+            right: 20px;
+            font-size: 60px;
+            opacity: 0.1;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+
+        ul li {
+            padding: 10px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #2C2C2C;
+        }
+
+        ul li:before {
+            content: "→";
+            color: #D4A76A;
+            font-weight: bold;
+            font-size: 1em;
+            position: absolute;
+            left: 0;
+        }
+
+        .important-note {
+            background: linear-gradient(135deg, rgba(212, 167, 106, 0.15) 0%, rgba(139, 111, 71, 0.1) 100%);
+            border: 2px solid #8B6F47;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 25px 0;
+            color: #2C2C2C;
+            position: relative;
+        }
+
+        .important-note:before {
+            content: "⚠️";
+            position: absolute;
+            top: -12px;
+            left: 20px;
+            background-color: #FAF6F0;
+            padding: 0 10px;
+            font-size: 20px;
+        }
+
+        .important-note strong {
+            color: #8B6F47;
+            font-weight: 700;
+        }
+
+        .contact-info {
+            background-color: rgba(74, 93, 58, 0.08);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 5px solid #4A5D3A;
+        }
+
+        .contact-info strong {
+            color: #4A5D3A;
+            font-weight: 600;
+        }
+
+        strong {
+            color: #4A5D3A;
+            font-weight: 600;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .footer-date {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 3px solid #8B6F47;
+            color: #4A5D3A;
+            background: linear-gradient(180deg, transparent 0%, rgba(139, 111, 71, 0.05) 100%);
+            padding: 30px 20px 20px 20px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .footer-date strong {
+            color: #8B6F47;
+            font-size: 1.1em;
+        }
+
+        .footer-date a {
+            color: #4A5D3A;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-date a:hover {
+            color: #D4A76A;
+        }
+
+        h2:hover:before {
+            background-color: #8B6F47;
+            transition: background-color 0.3s ease;
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            .container { padding: 20px; }
+            h1 { font-size: 2em; }
+            h2 { font-size: 1.5em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Términos y Condiciones de Uso</h1>
+        <p class="company-header">MOVIMIENTO REAL · JORGE DAREK</p>
+
+        <div class="intro">
+            <p>Estos Términos y Condiciones (los "Términos") regulan el acceso y uso de la aplicación móvil <strong>Movimiento Real</strong> (la "App"), operada por <strong>Real Group LLC</strong> (la "Empresa", "nosotros"). Al descargar, registrarte o usar la App aceptas estos Términos en su totalidad. Si no estás de acuerdo, por favor no uses la App.</p>
+        </div>
+
+        <div class="section">
+            <h2>1. Descripción del Servicio</h2>
+            <p>Movimiento Real es una aplicación de entrenamiento, planes personalizados, nutrición y coach con inteligencia artificial, junto con funciones sociales (feed, kudos, comentarios). Algunas funciones requieren una suscripción de pago.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Salud y Limitación de Responsabilidad</h2>
+            <div class="important-note">
+                <p>Movimiento Real es una App de bienestar y entrenamiento. <strong>No reemplaza el consejo médico profesional.</strong> Los planes de entrenamiento, recetas y recomendaciones generados —incluidos los producidos por inteligencia artificial— son sugerencias generales. Si tienes condiciones médicas, estás embarazada o tienes dudas sobre tu estado físico, consulta a un profesional de la salud antes de seguirlos. Usas la App bajo tu propia responsabilidad.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3. Tu Cuenta</h2>
+            <p>Eres responsable de mantener la confidencialidad de tu contraseña y de toda la actividad que ocurra bajo tu cuenta. Debes proporcionar información veraz al registrarte y notificarnos de inmediato cualquier uso no autorizado. La App no está dirigida a menores de 13 años.</p>
+        </div>
+
+        <div class="section">
+            <h2>4. Conducta en la Comunidad</h2>
+            <p>Al publicar contenido en la App te comprometes a no:</p>
+            <ul>
+                <li>Publicar contenido ilegal, ofensivo, acosador, difamatorio o que incite al odio.</li>
+                <li>Infringir derechos de propiedad intelectual o de privacidad de terceros.</li>
+                <li>Suplantar la identidad de otras personas o entidades.</li>
+                <li>Distribuir spam, malware o realizar accesos no autorizados al sistema.</li>
+            </ul>
+            <p>Nos reservamos el derecho de retirar contenido y de suspender o cancelar cuentas que incumplan estas reglas.</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Contenido que Generas</h2>
+            <p>Los entrenamientos, fotos, rutas, comentarios y demás contenido que subas siguen siendo de tu propiedad. Nos otorgas una licencia mundial, no exclusiva y gratuita para almacenar, reproducir y mostrar dicho contenido únicamente con el fin de operar la App y según los ajustes de visibilidad que tú elijas (privado, seguidores o público).</p>
+        </div>
+
+        <div class="section">
+            <h2>6. Propiedad Intelectual y Notificaciones de Copyright (DMCA)</h2>
+            <p>La App, su marca, diseño, software y los contenidos provistos por la Empresa son propiedad de <strong>Real Group LLC</strong> o de sus licenciantes y están protegidos por las leyes de propiedad intelectual.</p>
+            <p>Respetamos los derechos de autor de terceros. Si consideras que un contenido alojado en la App infringe tus derechos, puedes enviar una notificación conforme a la <strong>Digital Millennium Copyright Act (DMCA), 17 U.S.C. § 512</strong> a nuestro Agente de Copyright designado. El procedimiento completo de notificación, contranotificación y la política de infractores reincidentes se detallan en nuestra <a href="./index.html#dmca">Política de Privacidad (sección DMCA)</a>.</p>
+            <div class="contact-info">
+                <p><strong>Agente de Copyright (DMCA):</strong> Real Group LLC · 411 Hollowtrail DR. Tampa, Florida (EE.UU.) · <strong>real@jorgedarek.com</strong> (asunto: «DMCA Notice»)</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>7. Suscripciones y Pagos</h2>
+            <p>Las suscripciones premium se procesan a través de las tiendas de aplicaciones (App Store de Apple o Google Play). El pago se carga a tu cuenta de la tienda al confirmar la compra. Las suscripciones se renuevan automáticamente salvo que las canceles al menos 24 horas antes del fin del período en curso. La gestión y cancelación se realizan desde los ajustes de tu cuenta en la tienda correspondiente, conforme a sus políticas de reembolso.</p>
+        </div>
+
+        <div class="section">
+            <h2>8. Modificaciones de los Términos</h2>
+            <p>Podemos actualizar estos Términos en cualquier momento. Publicaremos la versión vigente en esta página con su fecha de actualización y, si el cambio es sustancial, te avisaremos dentro de la App antes de que aplique.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Legislación Aplicable y Jurisdicción</h2>
+            <p>Estos Términos se rigen por las leyes del <strong>Estado de Florida y las leyes federales de los Estados Unidos de América</strong>, sin perjuicio de los derechos imperativos que la legislación de protección al consumidor de tu país de residencia te reconozca. Cualquier disputa se someterá a los tribunales competentes del Estado de Florida (EE.UU.).</p>
+        </div>
+
+        <div class="footer-date">
+            <p><strong>Última actualización:</strong> Junio de 2026</p>
+            <p><strong>Contacto:</strong> real@jorgedarek.com</p>
+            <p><strong>Política de Privacidad:</strong> <a href="./index.html">ver aquí</a></p>
+            <p style="margin-top: 20px; font-size: 0.9em; opacity: 0.8;"><strong>Real Group LLC</strong> | 411 Hollowtrail DR. Tampa, Florida | EIN: 32-0830812 | App publicada por Departamento Disruptivo</p>
+        </div>
+    </div>
+</body>
+</html>
